@@ -14,13 +14,9 @@ interface AuthenticationInterface
 {
     public function authenticate(Struct\Result $auth): void;
 
-    public function changePassword(Struct\Result $auth): Struct\Result;
+    public function changePassword(string $username, string $newPassword, string|int|null $algorithm = null, ?int $cost = null, ?string $salt = null): ?int;
 
     public function getUserID(string $username): ?int;
 
-    /**
-     * @param string $username
-     * @return bool
-     */
     public function checkUsernamePattern(string $username): bool;
 }
