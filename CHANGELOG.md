@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/bespin-studios/byteshard-auth/compare/v1.1.0...v1.1.1) (2025-05-27)
+
+
+### Bug Fixes
+
+* update pipeline and dependencies ([35f533e](https://github.com/bespin-studios/byteshard-auth/commit/35f533e53351e5be855079a1c1dd74ea046f915b))
+
 # [1.1.0](https://github.com/byteshard/auth/compare/v1.0.0...v1.1.0) (2024-04-23)
 
 
